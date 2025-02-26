@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch-web application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stopwatch" role="application" aria-label="Stopwatch Application">
+        <h1>Stopwatch</h1>
+        <div class="time" id="display" aria-live="polite">00:00:00</div>
+        <button id="start" aria-label="Start stopwatch">Start</button>
+        <button id="pause" aria-label="Pause stopwatch">Pause</button>
+        <button id="reset" aria-label="Reset stopwatch">Reset</button>
+        <button id="lap" aria-label="Record lap time" >Lap</button>
+        <div class="lap-times" id="lapTimes" aria-label="Lap times" role="region"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
